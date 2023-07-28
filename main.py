@@ -60,7 +60,7 @@ np_embs = np.load('np_embs.npy', allow_pickle=True)
 
 # now we have a list of embeddings from the indexed data. Now let's do a quick test 
 print("at sample query")
-sample_query = "who went to the park?"
+sample_query = "who was at the big lake?"
 response = openai.Embedding.create(
         input= sample_query,
         model="text-embedding-ada-002"

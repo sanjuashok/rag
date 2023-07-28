@@ -1,0 +1,4 @@
+venv/
+data/tinystories-train.txt
+constants.py
+__pycache__/
